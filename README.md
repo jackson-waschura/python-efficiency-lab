@@ -1,6 +1,6 @@
 # python-efficiency-lab
 
-A workspace to experiment and learn about Python optimizations.
+A workspace to experiment and learn about Python optimizations as well as write up minimal implementations of common algorithms and data structures.
 
 ### Example Applications:
 
@@ -11,8 +11,20 @@ A workspace to experiment and learn about Python optimizations.
 
 ### To do items:
 
-  - [ ] read through old timer code
-  - [ ] implement desired timing code for a single simple comparison
-  - [ ] abstract timing code into easy-to-use interface
-  - [ ] Write documentation for the interface
-  - [ ] Test the implementation
+#### Data Structures
+
+- [X] Implement Graph Data Structures
+- [X] Implement Heap Data Structures
+- [X] Implement Linked List Data Structures
+- [X] Implement Map Data Structures
+- [X] Implement Queue Data Structures
+- [X] Implement Stack Data Structures
+- [X] Implement Tree Data Structures
+
+#### Algorithms
+
+- [ ] Implement Bellman-Ford Algorithm
+- [ ] Implement Binary Search Algorithm
+- [ ] Implement Dijkstra's Algorithm
+- [ ] Implement Kruskal's Algorithm
+- [ ] Implement Prim's Algorithm
