@@ -12,7 +12,7 @@ where m is the number of samples and y is the binary target value.
 Gradient descent is typically used to minimize the cost function:
     theta := theta - alpha * 1/m * sum((h(x) - y) * x)
 
-From a probabilistic standpoint, the model is trying to maximize the likelihood of the data.
+From a probabilistic standpoint, we are trying to maximize the likelihood of the data.
 If we make the modelling assumption that y|x ~ Bernoulli(h(x)), then the likelihood of the data is:
     L(theta) = prod(h(x)^y * (1-h(x))^(1-y))
 Taking the log of the likelihood, we get the log loss function mentioned earlier.
