@@ -24,7 +24,9 @@ classifiers = [
 ]
 dependencies = [
     "torch==2.4.1",
+    "tensorflow==2.11.1",
     "numpy",
+    "scikit-learn",
 ]
 
 [project.optional-dependencies]
