@@ -27,6 +27,9 @@ dependencies = [
     "tensorflow==2.11.1",
     "numpy",
     "scikit-learn",
+    "matplotlib",
+    "transformers",
+    "tiktoken",
 ]
 
 [project.optional-dependencies]
